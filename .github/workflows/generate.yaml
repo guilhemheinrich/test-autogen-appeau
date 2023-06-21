@@ -21,7 +21,7 @@ jobs:
         steps:
             - uses: actions/checkout@v3
             - name: Build client
-              uses: guilhemheinrich/test-autogen-appeau@main
+              uses: guilhemheinrich/openAPI-generator-action@main
               with:
                 targeted_language: python
                 openAPI_description_path: swagger_docs_appeau.json
