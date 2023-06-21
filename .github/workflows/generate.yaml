@@ -30,6 +30,7 @@ jobs:
               run: |
                 git config --local user.email "zezongo@gmail.com"
                 git config --local user.name "guilhemheinrich"
+                git add .
                 git commit -a -m "[Automated] Updated minor version"
             - name: Push changes
               uses: ad-m/github-push-action@master
